@@ -1,0 +1,29 @@
+.gesture__zone {
+  background-color: #002E94;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+  height: 500px;
+  text-align: center;
+  overflow: auto;
+}
+
+h1, p, .gesture__indicator {
+   -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none;   /* Firefox all */
+  -ms-user-select: none;  /* IE 10+ */
+   user-select: none;  /* Likely future */ 
+}
+
+.gesture__indicator {
+  color: #E1CEB5;
+}
+
+.tittle{
+  color: #FFE7CC;
+}
+
+.first{
+  background-color: #083AA9;
+  padding: 10px;
+}

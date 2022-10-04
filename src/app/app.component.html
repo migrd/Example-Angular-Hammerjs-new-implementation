@@ -1,0 +1,6 @@
+<div class="gesture__zone" id="hitarea" (swipe)="onSwipe($event)">
+  <h1 class="tittle">Swipe Gesture</h1>
+  <div *ngFor="let swipe of swipesData; first as isFirst">
+    <p class="gesture__indicator" [class.first]="isFirst">{{swipe}}</p>
+  </div>
+</div>
